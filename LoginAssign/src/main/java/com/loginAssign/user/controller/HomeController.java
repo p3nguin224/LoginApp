@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HomeController {
 	
 	// git add
+	// third
 	@RequestMapping("/")
 	private String home() {
        return "index";
